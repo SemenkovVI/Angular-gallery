@@ -1,0 +1,11 @@
+<div class="image-container">
+  <div class="image-list" *ngFor="let image of imageList; index as i">
+    <div class="image-target">
+      <img [src]="imageList[i].imageUrl" class="img-fluid">
+      <span class="image-target-desc">{{imageList[i].caption}}</span>
+    </div>
+  </div>
+</div>
+
+
+

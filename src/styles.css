@@ -1,0 +1,62 @@
+.row {
+  width: 100%;
+}
+
+
+.image-target {
+  background: black;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.image-target img {
+  opacity: 1;
+  width: 250px;
+  height: 250px;
+}
+
+.image-target .image-target-desc {
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 0px;
+  color: white;
+  font-size: 1.2em;
+  left: 0px;
+  padding: 10px 15px;
+  position: absolute;
+  transition: 0.5s padding;
+  text-align: center;
+  width: 100%;
+}
+
+.image-target:hover img {
+  opacity: 0.9;
+}
+
+.image-target:hover .image-target-desc {
+  padding-bottom: 10%;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-list {
+  width: 30%;
+  height: 30%;
+  margin: 5px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+blockquote p {
+  text-align: center;
+}
